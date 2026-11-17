@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "acsFD62KdCaL8omrp7vvBr"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "btn_replay",
+      "rect": [
+        14,
+        0,
+        592,
+        296
+      ],
+      "offset": [
+        0,
+        2.5
+      ],
+      "originalSize": [
+        620,
+        301
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

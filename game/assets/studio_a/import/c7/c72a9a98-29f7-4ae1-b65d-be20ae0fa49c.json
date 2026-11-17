@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "e7dtLweklOf7zVQ36+zmd5"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "background_bg_05",
+      "rect": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        887,
+        1774
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,151 @@
+{
+    "paths": {
+        "5bHCLu0U5GOp5AhTT5PriY": [
+            "audio/bgm/bgm_game",
+            "cc.AudioClip"
+        ],
+        "3aP/zV5KFJh5g57LpfHsSj": [
+            "audio/bgm/bgm_menu",
+            "cc.AudioClip"
+        ],
+        "fdwGv7aI1LSJQpQ8em9RBL": [
+            "audio/bgm/jingle_lose",
+            "cc.AudioClip"
+        ],
+        "f6w85TNJpObY1iB3wKzWNS": [
+            "audio/bgm/jingle_win",
+            "cc.AudioClip"
+        ],
+        "8fvt0TxVRNsYQbRxVQgX0u": [
+            "audio/sfx/sfx_coin",
+            "cc.AudioClip"
+        ],
+        "9a6vNmEe1FCrTv2CE4eAm6": [
+            "audio/sfx/sfx_combo_1",
+            "cc.AudioClip"
+        ],
+        "49w5I0ASJEjazkbi1vMtRO": [
+            "audio/sfx/sfx_combo_2",
+            "cc.AudioClip"
+        ],
+        "4cD60e+0pNeI8rnSNjWMIC": [
+            "audio/sfx/sfx_combo_3",
+            "cc.AudioClip"
+        ],
+        "2anDyk8CJOE6psnTIBFMRw": [
+            "audio/sfx/sfx_combo_4",
+            "cc.AudioClip"
+        ],
+        "c31gMSlShDM4vg9o8FxGII": [
+            "audio/sfx/sfx_combo_5",
+            "cc.AudioClip"
+        ],
+        "290PxkLkpKfJceEywF/9TX": [
+            "audio/sfx/sfx_invalid",
+            "cc.AudioClip"
+        ],
+        "aa3x0eWBpMxoN0R44QzcN2": [
+            "audio/sfx/sfx_match_1",
+            "cc.AudioClip"
+        ],
+        "56pBhxqvJFdJlbmVgiN+lf": [
+            "audio/sfx/sfx_match_2",
+            "cc.AudioClip"
+        ],
+        "f2wlOxyHZKl5qTfLYUeaAv": [
+            "audio/sfx/sfx_match_3",
+            "cc.AudioClip"
+        ],
+        "821/QMCnlAHIkm1adBmzQi": [
+            "audio/sfx/sfx_pin",
+            "cc.AudioClip"
+        ],
+        "90zQ9dgg9JJ7dYOz4tboXI": [
+            "audio/sfx/sfx_place_1",
+            "cc.AudioClip"
+        ],
+        "e6irE7y8ZLS51tew6MJtuo": [
+            "audio/sfx/sfx_place_2",
+            "cc.AudioClip"
+        ],
+        "baZJBpgTdBcbOjstJoKvPF": [
+            "audio/sfx/sfx_place_3",
+            "cc.AudioClip"
+        ],
+        "a71TMWfBBNkq2OqbqiRY1v": [
+            "audio/sfx/sfx_reward_ad",
+            "cc.AudioClip"
+        ],
+        "84gXYrIrFCuJNYO9AJ3Ve7": [
+            "audio/sfx/sfx_star_1",
+            "cc.AudioClip"
+        ],
+        "4buvT4sQ9MR65mtcOxlH2I": [
+            "audio/sfx/sfx_star_2",
+            "cc.AudioClip"
+        ],
+        "fcxcWJWn1LDLyXPyQCBbcg": [
+            "audio/sfx/sfx_star_3",
+            "cc.AudioClip"
+        ],
+        "29IoEvxT1ErqMNDkRf9J1A": [
+            "audio/sfx/sfx_ui_click_1",
+            "cc.AudioClip"
+        ],
+        "fdmz+xki9EPbKp+n5u0Wye": [
+            "audio/sfx/sfx_ui_click_2",
+            "cc.AudioClip"
+        ],
+        "91wO+YEm5JK5GgmUkTx7jJ": [
+            "audio/sfx/sfx_ui_click_3",
+            "cc.AudioClip"
+        ],
+        "09zgfwBMRN/aJktIJcyubj": [
+            "audio/sfx/sfx_ui_popup_close",
+            "cc.AudioClip"
+        ],
+        "13h5UTacxPpaM1jdMr1gmE": [
+            "audio/sfx/sfx_ui_popup_open",
+            "cc.AudioClip"
+        ]
+    },
+    "uuids": [
+        "09zgfwBMRN/aJktIJcyubj",
+        "13h5UTacxPpaM1jdMr1gmE",
+        "29IoEvxT1ErqMNDkRf9J1A",
+        "290PxkLkpKfJceEywF/9TX",
+        "2anDyk8CJOE6psnTIBFMRw",
+        "3aP/zV5KFJh5g57LpfHsSj",
+        "49w5I0ASJEjazkbi1vMtRO",
+        "4buvT4sQ9MR65mtcOxlH2I",
+        "4cD60e+0pNeI8rnSNjWMIC",
+        "56pBhxqvJFdJlbmVgiN+lf",
+        "5bHCLu0U5GOp5AhTT5PriY",
+        "821/QMCnlAHIkm1adBmzQi",
+        "84gXYrIrFCuJNYO9AJ3Ve7",
+        "8fvt0TxVRNsYQbRxVQgX0u",
+        "90zQ9dgg9JJ7dYOz4tboXI",
+        "91wO+YEm5JK5GgmUkTx7jJ",
+        "9a6vNmEe1FCrTv2CE4eAm6",
+        "a71TMWfBBNkq2OqbqiRY1v",
+        "aa3x0eWBpMxoN0R44QzcN2",
+        "baZJBpgTdBcbOjstJoKvPF",
+        "c31gMSlShDM4vg9o8FxGII",
+        "e6irE7y8ZLS51tew6MJtuo",
+        "f2wlOxyHZKl5qTfLYUeaAv",
+        "f6w85TNJpObY1iB3wKzWNS",
+        "fcxcWJWn1LDLyXPyQCBbcg",
+        "fdmz+xki9EPbKp+n5u0Wye",
+        "fdwGv7aI1LSJQpQ8em9RBL"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {},
+    "name": "sound",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

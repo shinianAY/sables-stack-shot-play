@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "66nH6dV9pGYZ0A5sOOPEE9"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "background_preview_bg_07",
+      "rect": [
+        0,
+        0,
+        543,
+        290
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        543,
+        290
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

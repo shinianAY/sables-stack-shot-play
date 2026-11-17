@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "666jrwXp5E6bBv+50aX7W1"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "limited_card",
+      "rect": [
+        0,
+        0,
+        253,
+        293
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        253,
+        293
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

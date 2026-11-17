@@ -1,0 +1,53 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "platform",
+      {
+        "appId": "7683427172773644296",
+        "clientKey": "mgq7o8c3rbhdx2kv",
+        "rewardedPlacementId": "ad7683064432721709074",
+        "rewardedPlacements": [
+          {
+            "name": "Rewarded 2",
+            "id": "ad7683064432721709074"
+          },
+          {
+            "name": "Rewarded",
+            "id": "ad7683076047361067016"
+          },
+          {
+            "name": "Rewarded",
+            "id": "ad7683199506230233095"
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

@@ -1,0 +1,494 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "unlock_table",
+      {
+        "module": "skin.v1",
+        "coins_per_ad": 48,
+        "coins_per_level": 48,
+        "mode": "levels",
+        "limited_mode": "final",
+        "price_steps": [
+          1,
+          4,
+          10,
+          20
+        ],
+        "items": [
+          {
+            "id": "hero_limited",
+            "group": "skin",
+            "order": 1,
+            "rarity": "limited",
+            "limited": true,
+            "name": "Final Nib",
+            "art": "Final Nib — candy ink studio collection",
+            "unlock": "level",
+            "level": 70,
+            "condition": "clear",
+            "ads": 0,
+            "coins": 0,
+            "bonus": {
+              "type": "coins",
+              "pct": 55
+            }
+          },
+          {
+            "id": "hero_01",
+            "group": "skin",
+            "order": 2,
+            "rarity": "common",
+            "unlock": "free",
+            "ads": 0,
+            "coins": 0,
+            "name": "Sable Default",
+            "art": "Sable Default — candy ink studio collection"
+          },
+          {
+            "id": "hero_02",
+            "group": "skin",
+            "order": 3,
+            "rarity": "common",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 96,
+            "name": "Ink Sable",
+            "art": "Ink Sable — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 5
+            }
+          },
+          {
+            "id": "hero_03",
+            "group": "skin",
+            "order": 4,
+            "rarity": "common",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 144,
+            "name": "Nib Sable",
+            "art": "Nib Sable — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 6
+            }
+          },
+          {
+            "id": "hero_04",
+            "group": "skin",
+            "order": 5,
+            "rarity": "common",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 192,
+            "name": "Blot Sable",
+            "art": "Blot Sable — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 7
+            }
+          },
+          {
+            "id": "hero_05",
+            "group": "skin",
+            "order": 6,
+            "rarity": "common",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 240,
+            "name": "Quill Sable",
+            "art": "Quill Sable — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 8
+            }
+          },
+          {
+            "id": "hero_06",
+            "group": "skin",
+            "order": 7,
+            "rarity": "common",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 288,
+            "name": "Press Sable",
+            "art": "Press Sable — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 8
+            }
+          },
+          {
+            "id": "hero_07",
+            "group": "skin",
+            "order": 8,
+            "rarity": "common",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 336,
+            "name": "Gloss Sable",
+            "art": "Gloss Sable — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 9
+            }
+          },
+          {
+            "id": "hero_08",
+            "group": "skin",
+            "order": 9,
+            "rarity": "common",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 384,
+            "name": "Dew Nib",
+            "art": "Dew Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 10
+            }
+          },
+          {
+            "id": "hero_09",
+            "group": "skin",
+            "order": 10,
+            "rarity": "rare",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 576,
+            "name": "Sun Nib",
+            "art": "Sun Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 12
+            }
+          },
+          {
+            "id": "hero_10",
+            "group": "skin",
+            "order": 11,
+            "rarity": "rare",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 768,
+            "name": "Amber Nib",
+            "art": "Amber Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 13
+            }
+          },
+          {
+            "id": "hero_11",
+            "group": "skin",
+            "order": 12,
+            "rarity": "rare",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 960,
+            "name": "Lamp Nib",
+            "art": "Lamp Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 15
+            }
+          },
+          {
+            "id": "hero_12",
+            "group": "skin",
+            "order": 13,
+            "rarity": "rare",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 1152,
+            "name": "Wick Nib",
+            "art": "Wick Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 16
+            }
+          },
+          {
+            "id": "hero_13",
+            "group": "skin",
+            "order": 14,
+            "rarity": "rare",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 1344,
+            "name": "Patio Nib",
+            "art": "Patio Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 18
+            }
+          },
+          {
+            "id": "hero_14",
+            "group": "skin",
+            "order": 15,
+            "rarity": "rare",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 1536,
+            "name": "Jelly Nib",
+            "art": "Jelly Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 20
+            }
+          },
+          {
+            "id": "hero_15",
+            "group": "skin",
+            "order": 16,
+            "rarity": "epic",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 2016,
+            "name": "Marm Nib",
+            "art": "Marm Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 24
+            }
+          },
+          {
+            "id": "hero_16",
+            "group": "skin",
+            "order": 17,
+            "rarity": "epic",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 2496,
+            "name": "Comb Nib",
+            "art": "Comb Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 27
+            }
+          },
+          {
+            "id": "hero_17",
+            "group": "skin",
+            "order": 18,
+            "rarity": "epic",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 2976,
+            "name": "Cap Nib",
+            "art": "Cap Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 30
+            }
+          },
+          {
+            "id": "hero_18",
+            "group": "skin",
+            "order": 19,
+            "rarity": "legendary",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 3936,
+            "name": "Fest Nib",
+            "art": "Fest Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 38
+            }
+          },
+          {
+            "id": "hero_19",
+            "group": "skin",
+            "order": 20,
+            "rarity": "legendary",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 4896,
+            "name": "Last Nib",
+            "art": "Last Nib — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 45
+            }
+          },
+          {
+            "id": "bg_01",
+            "group": "background",
+            "order": 1,
+            "rarity": "common",
+            "unlock": "free",
+            "ads": 0,
+            "coins": 0,
+            "name": "Studio Morning",
+            "art": "Studio Morning — candy ink studio collection"
+          },
+          {
+            "id": "bg_02",
+            "group": "background",
+            "order": 2,
+            "rarity": "common",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 96,
+            "name": "Lemon Press",
+            "art": "Lemon Press — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 2
+            }
+          },
+          {
+            "id": "bg_03",
+            "group": "background",
+            "order": 3,
+            "rarity": "common",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 144,
+            "name": "Mint Rail",
+            "art": "Mint Rail — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 3
+            }
+          },
+          {
+            "id": "bg_04",
+            "group": "background",
+            "order": 4,
+            "rarity": "common",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 192,
+            "name": "Berry Wall",
+            "art": "Berry Wall — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 5
+            }
+          },
+          {
+            "id": "bg_05",
+            "group": "background",
+            "order": 5,
+            "rarity": "rare",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 384,
+            "name": "Honey Wall",
+            "art": "Honey Wall — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 6
+            }
+          },
+          {
+            "id": "bg_06",
+            "group": "background",
+            "order": 6,
+            "rarity": "rare",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 576,
+            "name": "Grape Wall",
+            "art": "Grape Wall — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 8
+            }
+          },
+          {
+            "id": "bg_07",
+            "group": "background",
+            "order": 7,
+            "rarity": "rare",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 768,
+            "name": "Cocoa Wall",
+            "art": "Cocoa Wall — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 10
+            }
+          },
+          {
+            "id": "bg_08",
+            "group": "background",
+            "order": 8,
+            "rarity": "epic",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 1248,
+            "name": "Lamp Wall",
+            "art": "Lamp Wall — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 12
+            }
+          },
+          {
+            "id": "bg_09",
+            "group": "background",
+            "order": 9,
+            "rarity": "epic",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 1728,
+            "name": "Garden Wall",
+            "art": "Garden Wall — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 15
+            }
+          },
+          {
+            "id": "bg_10",
+            "group": "background",
+            "order": 10,
+            "rarity": "legendary",
+            "unlock": "coins",
+            "ads": 0,
+            "coins": 2688,
+            "name": "Final Wall",
+            "art": "Final Wall — candy ink studio collection",
+            "bonus": {
+              "type": "coins",
+              "pct": 20
+            }
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

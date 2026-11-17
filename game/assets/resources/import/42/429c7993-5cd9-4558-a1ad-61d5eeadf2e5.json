@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a0EwGU5M1FiZ+udKSqPKVy"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "btn_home",
+      "rect": [
+        12,
+        0,
+        600,
+        294
+      ],
+      "offset": [
+        2,
+        1
+      ],
+      "originalSize": [
+        620,
+        296
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

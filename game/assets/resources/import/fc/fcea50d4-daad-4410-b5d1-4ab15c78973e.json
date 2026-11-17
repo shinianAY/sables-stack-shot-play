@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a75RvqbI9PMrO5SURrpNxR"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "btn_pull_pin",
+      "rect": [
+        0,
+        0,
+        620,
+        248
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        620,
+        248
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

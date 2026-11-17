@@ -1,0 +1,1737 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "level_plan",
+      {
+        "schema": "level_plan.v1",
+        "mode": "levels",
+        "why": "70 fixed column puzzles with progressively introduced merge, pin, recipe, echo and bank mechanics.",
+        "currency": "Sparks",
+        "total_levels": 70,
+        "milestone_every": 10,
+        "seed": 880088,
+        "bonus_multiplier": 3,
+        "limited_skin_mode": "final",
+        "levels": [
+          {
+            "level": 1,
+            "type": "normal",
+            "difficulty": 1,
+            "coins": 48,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "tags": [
+              "intro"
+            ],
+            "actual_metrics": {
+              "shots": 4,
+              "initial_blocks": 0,
+              "max_goal": 2,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            }
+          },
+          {
+            "level": 2,
+            "type": "normal",
+            "difficulty": 1.1,
+            "coins": 48,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "tags": [
+              "intro"
+            ],
+            "actual_metrics": {
+              "shots": 6,
+              "initial_blocks": 0,
+              "max_goal": 2,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            }
+          },
+          {
+            "level": 3,
+            "type": "normal",
+            "difficulty": 1.2,
+            "coins": 48,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 8,
+              "initial_blocks": 0,
+              "max_goal": 2,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            }
+          },
+          {
+            "level": 4,
+            "type": "normal",
+            "difficulty": 1.3,
+            "coins": 48,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "tags": [
+              "intro"
+            ],
+            "actual_metrics": {
+              "shots": 4,
+              "initial_blocks": 2,
+              "max_goal": 4,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 2,
+              "text": "Switch columns at most 2 times without a revive."
+            }
+          },
+          {
+            "level": 5,
+            "type": "normal",
+            "difficulty": 1.4,
+            "coins": 48,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 4,
+              "initial_blocks": 2,
+              "max_goal": 4,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            }
+          },
+          {
+            "level": 6,
+            "type": "bonus",
+            "difficulty": 0.6,
+            "coins": 144,
+            "new": true,
+            "bonus": "One free-choice golden ink shot; stored reward is already triple.",
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 2,
+              "initial_blocks": 1,
+              "max_goal": 8,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            }
+          },
+          {
+            "level": 7,
+            "type": "normal",
+            "difficulty": 1.6,
+            "coins": 48,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 3,
+              "initial_blocks": 3,
+              "max_goal": 4,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            }
+          },
+          {
+            "level": 8,
+            "type": "normal",
+            "difficulty": 1.7,
+            "coins": 48,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 3,
+              "initial_blocks": 2,
+              "max_goal": 4,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            }
+          },
+          {
+            "level": 9,
+            "type": "normal",
+            "difficulty": 1.8,
+            "coins": 48,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 4,
+              "initial_blocks": 2,
+              "max_goal": 4,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            }
+          },
+          {
+            "level": 10,
+            "type": "milestone",
+            "difficulty": 1.9,
+            "coins": 48,
+            "frame": "Gold ink seal and chapter crown",
+            "reward": {
+              "type": "coins",
+              "amount": 340
+            },
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 6,
+              "initial_blocks": 3,
+              "max_goal": 4,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 3,
+              "text": "Switch columns at most 3 times without a revive."
+            }
+          },
+          {
+            "level": 11,
+            "type": "normal",
+            "difficulty": 2,
+            "coins": 53,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 5,
+              "initial_blocks": 4,
+              "max_goal": 4,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 2,
+              "text": "Switch columns at most 2 times without a revive."
+            }
+          },
+          {
+            "level": 12,
+            "type": "normal",
+            "difficulty": 2.1,
+            "coins": 53,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin"
+            ],
+            "tags": [
+              "intro"
+            ],
+            "actual_metrics": {
+              "shots": 6,
+              "initial_blocks": 3,
+              "max_goal": 8,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 2,
+              "text": "Switch columns at most 2 times without a revive."
+            }
+          },
+          {
+            "level": 13,
+            "type": "bonus",
+            "difficulty": 1.2,
+            "coins": 159,
+            "new": true,
+            "bonus": "One free-choice golden ink shot; stored reward is already triple.",
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 2,
+              "initial_blocks": 2,
+              "max_goal": 8,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            }
+          },
+          {
+            "level": 14,
+            "type": "normal",
+            "difficulty": 2.3,
+            "coins": 53,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin"
+            ],
+            "actual_metrics": {
+              "shots": 7,
+              "initial_blocks": 3,
+              "max_goal": 8,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 3,
+              "text": "Switch columns at most 3 times without a revive."
+            }
+          },
+          {
+            "level": 15,
+            "type": "normal",
+            "difficulty": 2.4,
+            "coins": 53,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin"
+            ],
+            "actual_metrics": {
+              "shots": 8,
+              "initial_blocks": 3,
+              "max_goal": 8,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 4,
+              "text": "Switch columns at most 4 times without a revive."
+            }
+          },
+          {
+            "level": 16,
+            "type": "normal",
+            "difficulty": 2.5,
+            "coins": 53,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin"
+            ],
+            "actual_metrics": {
+              "shots": 7,
+              "initial_blocks": 5,
+              "max_goal": 8,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            }
+          },
+          {
+            "level": 17,
+            "type": "normal",
+            "difficulty": 2.6,
+            "coins": 53,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin"
+            ],
+            "actual_metrics": {
+              "shots": 6,
+              "initial_blocks": 7,
+              "max_goal": 8,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 3,
+              "text": "Switch columns at most 3 times without a revive."
+            }
+          },
+          {
+            "level": 18,
+            "type": "normal",
+            "difficulty": 2.7,
+            "coins": 53,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin"
+            ],
+            "actual_metrics": {
+              "shots": 7,
+              "initial_blocks": 4,
+              "max_goal": 8,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 3,
+              "text": "Switch columns at most 3 times without a revive."
+            }
+          },
+          {
+            "level": 19,
+            "type": "normal",
+            "difficulty": 2.8,
+            "coins": 53,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin"
+            ],
+            "actual_metrics": {
+              "shots": 7,
+              "initial_blocks": 4,
+              "max_goal": 8,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 3,
+              "text": "Switch columns at most 3 times without a revive."
+            }
+          },
+          {
+            "level": 20,
+            "type": "milestone",
+            "difficulty": 2.9,
+            "coins": 53,
+            "frame": "Gold ink seal and chapter crown",
+            "reward": {
+              "type": "coins",
+              "amount": 270
+            },
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin"
+            ],
+            "actual_metrics": {
+              "shots": 9,
+              "initial_blocks": 5,
+              "max_goal": 8,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            }
+          },
+          {
+            "level": 21,
+            "type": "normal",
+            "difficulty": 3,
+            "coins": 58,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin"
+            ],
+            "actual_metrics": {
+              "shots": 10,
+              "initial_blocks": 4,
+              "max_goal": 8,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 4,
+              "text": "Switch columns at most 4 times without a revive."
+            }
+          },
+          {
+            "level": 22,
+            "type": "normal",
+            "difficulty": 3.1,
+            "coins": 58,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "tags": [
+              "intro"
+            ],
+            "actual_metrics": {
+              "shots": 9,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 3
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            }
+          },
+          {
+            "level": 23,
+            "type": "bonus",
+            "difficulty": 1.8,
+            "coins": 174,
+            "new": true,
+            "bonus": "One free-choice golden ink shot; stored reward is already triple.",
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 2,
+              "initial_blocks": 3,
+              "max_goal": 16,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            }
+          },
+          {
+            "level": 24,
+            "type": "normal",
+            "difficulty": 3.3,
+            "coins": 58,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "actual_metrics": {
+              "shots": 11,
+              "initial_blocks": 5,
+              "max_goal": 16,
+              "ordered_shots": 4
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            }
+          },
+          {
+            "level": 25,
+            "type": "normal",
+            "difficulty": 3.4,
+            "coins": 58,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "actual_metrics": {
+              "shots": 12,
+              "initial_blocks": 9,
+              "max_goal": 16,
+              "ordered_shots": 4
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            }
+          },
+          {
+            "level": 26,
+            "type": "normal",
+            "difficulty": 3.5,
+            "coins": 58,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "actual_metrics": {
+              "shots": 14,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            }
+          },
+          {
+            "level": 27,
+            "type": "normal",
+            "difficulty": 3.6,
+            "coins": 58,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "actual_metrics": {
+              "shots": 14,
+              "initial_blocks": 7,
+              "max_goal": 16,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            }
+          },
+          {
+            "level": 28,
+            "type": "normal",
+            "difficulty": 3.7,
+            "coins": 58,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "actual_metrics": {
+              "shots": 8,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 3
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            }
+          },
+          {
+            "level": 29,
+            "type": "normal",
+            "difficulty": 3.8,
+            "coins": 58,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "actual_metrics": {
+              "shots": 7,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 2
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 4,
+              "text": "Switch columns at most 4 times without a revive."
+            }
+          },
+          {
+            "level": 30,
+            "type": "milestone",
+            "difficulty": 3.9,
+            "coins": 58,
+            "frame": "Gold ink seal and chapter crown",
+            "reward": {
+              "type": "coins",
+              "amount": 290
+            },
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "actual_metrics": {
+              "shots": 9,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 3
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            }
+          },
+          {
+            "level": 31,
+            "type": "normal",
+            "difficulty": 4,
+            "coins": 63,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "actual_metrics": {
+              "shots": 11,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 4
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            }
+          },
+          {
+            "level": 32,
+            "type": "normal",
+            "difficulty": 4.1,
+            "coins": 63,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "actual_metrics": {
+              "shots": 15,
+              "initial_blocks": 8,
+              "max_goal": 16,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 12,
+              "text": "Switch columns at most 12 times without a revive."
+            }
+          },
+          {
+            "level": 33,
+            "type": "normal",
+            "difficulty": 4.2,
+            "coins": 63,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "actual_metrics": {
+              "shots": 15,
+              "initial_blocks": 5,
+              "max_goal": 16,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            }
+          },
+          {
+            "level": 34,
+            "type": "bonus",
+            "difficulty": 2.4,
+            "coins": 189,
+            "new": true,
+            "bonus": "One free-choice golden ink shot; stored reward is already triple.",
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 2,
+              "initial_blocks": 4,
+              "max_goal": 32,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            }
+          },
+          {
+            "level": 35,
+            "type": "normal",
+            "difficulty": 4.4,
+            "coins": 63,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe"
+            ],
+            "actual_metrics": {
+              "shots": 21,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 7
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 13,
+              "text": "Switch columns at most 13 times without a revive."
+            }
+          },
+          {
+            "level": 36,
+            "type": "normal",
+            "difficulty": 4.5,
+            "coins": 63,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo"
+            ],
+            "tags": [
+              "intro"
+            ],
+            "actual_metrics": {
+              "shots": 16,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 4,
+              "text": "Switch columns at most 4 times without a revive."
+            }
+          },
+          {
+            "level": 37,
+            "type": "normal",
+            "difficulty": 4.6,
+            "coins": 63,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo"
+            ],
+            "actual_metrics": {
+              "shots": 18,
+              "initial_blocks": 5,
+              "max_goal": 32,
+              "ordered_shots": 6
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 10,
+              "text": "Switch columns at most 10 times without a revive."
+            }
+          },
+          {
+            "level": 38,
+            "type": "normal",
+            "difficulty": 4.7,
+            "coins": 63,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo"
+            ],
+            "actual_metrics": {
+              "shots": 14,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            }
+          },
+          {
+            "level": 39,
+            "type": "normal",
+            "difficulty": 4.8,
+            "coins": 63,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo"
+            ],
+            "actual_metrics": {
+              "shots": 13,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 4
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            }
+          },
+          {
+            "level": 40,
+            "type": "milestone",
+            "difficulty": 4.9,
+            "coins": 63,
+            "frame": "Gold ink seal and chapter crown",
+            "reward": {
+              "type": "coins",
+              "amount": 320
+            },
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo"
+            ],
+            "actual_metrics": {
+              "shots": 8,
+              "initial_blocks": 5,
+              "max_goal": 32,
+              "ordered_shots": 3
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            }
+          },
+          {
+            "level": 41,
+            "type": "normal",
+            "difficulty": 5,
+            "coins": 68,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo"
+            ],
+            "actual_metrics": {
+              "shots": 21,
+              "initial_blocks": 7,
+              "max_goal": 32,
+              "ordered_shots": 7
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 15,
+              "text": "Switch columns at most 15 times without a revive."
+            }
+          },
+          {
+            "level": 42,
+            "type": "bonus",
+            "difficulty": 3,
+            "coins": 204,
+            "new": true,
+            "bonus": "One free-choice golden ink shot; stored reward is already triple.",
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 2,
+              "initial_blocks": 5,
+              "max_goal": 64,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            }
+          },
+          {
+            "level": 43,
+            "type": "normal",
+            "difficulty": 5.2,
+            "coins": 68,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo"
+            ],
+            "actual_metrics": {
+              "shots": 10,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 3
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            }
+          },
+          {
+            "level": 44,
+            "type": "normal",
+            "difficulty": 5.3,
+            "coins": 68,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo"
+            ],
+            "actual_metrics": {
+              "shots": 13,
+              "initial_blocks": 5,
+              "max_goal": 32,
+              "ordered_shots": 4
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            }
+          },
+          {
+            "level": 45,
+            "type": "normal",
+            "difficulty": 5.4,
+            "coins": 68,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo"
+            ],
+            "actual_metrics": {
+              "shots": 9,
+              "initial_blocks": 10,
+              "max_goal": 32,
+              "ordered_shots": 3
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            }
+          },
+          {
+            "level": 46,
+            "type": "normal",
+            "difficulty": 5.5,
+            "coins": 68,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo"
+            ],
+            "actual_metrics": {
+              "shots": 9,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 3
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            }
+          },
+          {
+            "level": 47,
+            "type": "normal",
+            "difficulty": 5.6,
+            "coins": 68,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo"
+            ],
+            "actual_metrics": {
+              "shots": 10,
+              "initial_blocks": 7,
+              "max_goal": 32,
+              "ordered_shots": 3
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 4,
+              "text": "Switch columns at most 4 times without a revive."
+            }
+          },
+          {
+            "level": 48,
+            "type": "normal",
+            "difficulty": 5.7,
+            "coins": 68,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "tags": [
+              "intro"
+            ],
+            "actual_metrics": {
+              "shots": 13,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 4
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            }
+          },
+          {
+            "level": 49,
+            "type": "normal",
+            "difficulty": 5.8,
+            "coins": 68,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 21,
+              "initial_blocks": 5,
+              "max_goal": 16,
+              "ordered_shots": 7
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 14,
+              "text": "Switch columns at most 14 times without a revive."
+            }
+          },
+          {
+            "level": 50,
+            "type": "milestone",
+            "difficulty": 5.9,
+            "coins": 68,
+            "frame": "Gold ink seal and chapter crown",
+            "reward": {
+              "type": "coins",
+              "amount": 340
+            },
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 14,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            }
+          },
+          {
+            "level": 51,
+            "type": "normal",
+            "difficulty": 6,
+            "coins": 73,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 15,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 9,
+              "text": "Switch columns at most 9 times without a revive."
+            }
+          },
+          {
+            "level": 52,
+            "type": "normal",
+            "difficulty": 6.1,
+            "coins": 73,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 13,
+              "initial_blocks": 7,
+              "max_goal": 16,
+              "ordered_shots": 4
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            }
+          },
+          {
+            "level": 53,
+            "type": "normal",
+            "difficulty": 6.2,
+            "coins": 73,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 9,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 3
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            }
+          },
+          {
+            "level": 54,
+            "type": "bonus",
+            "difficulty": 3.6,
+            "coins": 219,
+            "new": true,
+            "bonus": "One free-choice golden ink shot; stored reward is already triple.",
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 3,
+              "initial_blocks": 6,
+              "max_goal": 128,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            }
+          },
+          {
+            "level": 55,
+            "type": "normal",
+            "difficulty": 6.4,
+            "coins": 73,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 20,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 7
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 14,
+              "text": "Switch columns at most 14 times without a revive."
+            }
+          },
+          {
+            "level": 56,
+            "type": "normal",
+            "difficulty": 6.5,
+            "coins": 73,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 14,
+              "initial_blocks": 5,
+              "max_goal": 32,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            }
+          },
+          {
+            "level": 57,
+            "type": "normal",
+            "difficulty": 6.6,
+            "coins": 73,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 17,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 6
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 12,
+              "text": "Switch columns at most 12 times without a revive."
+            }
+          },
+          {
+            "level": 58,
+            "type": "normal",
+            "difficulty": 6.7,
+            "coins": 73,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 12,
+              "initial_blocks": 8,
+              "max_goal": 32,
+              "ordered_shots": 4
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            }
+          },
+          {
+            "level": 59,
+            "type": "normal",
+            "difficulty": 6.8,
+            "coins": 73,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 10,
+              "initial_blocks": 7,
+              "max_goal": 32,
+              "ordered_shots": 3
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            }
+          },
+          {
+            "level": 60,
+            "type": "milestone",
+            "difficulty": 6.9,
+            "coins": 73,
+            "frame": "Gold ink seal and chapter crown",
+            "reward": {
+              "type": "coins",
+              "amount": 370
+            },
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 15,
+              "initial_blocks": 9,
+              "max_goal": 32,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            }
+          },
+          {
+            "level": 61,
+            "type": "normal",
+            "difficulty": 7,
+            "coins": 78,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 13,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 4
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            }
+          },
+          {
+            "level": 62,
+            "type": "normal",
+            "difficulty": 7.1,
+            "coins": 78,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 14,
+              "initial_blocks": 8,
+              "max_goal": 32,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            }
+          },
+          {
+            "level": 63,
+            "type": "normal",
+            "difficulty": 7.2,
+            "coins": 78,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 17,
+              "initial_blocks": 7,
+              "max_goal": 32,
+              "ordered_shots": 6
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 10,
+              "text": "Switch columns at most 10 times without a revive."
+            }
+          },
+          {
+            "level": 64,
+            "type": "bonus",
+            "difficulty": 4.2,
+            "coins": 234,
+            "new": true,
+            "bonus": "One free-choice golden ink shot; stored reward is already triple.",
+            "mechanics": [
+              "tap-shot",
+              "equal-merge"
+            ],
+            "actual_metrics": {
+              "shots": 3,
+              "initial_blocks": 7,
+              "max_goal": 256,
+              "ordered_shots": 0
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            }
+          },
+          {
+            "level": 65,
+            "type": "normal",
+            "difficulty": 7.4,
+            "coins": 78,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 20,
+              "initial_blocks": 10,
+              "max_goal": 64,
+              "ordered_shots": 7
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 11,
+              "text": "Switch columns at most 11 times without a revive."
+            }
+          },
+          {
+            "level": 66,
+            "type": "normal",
+            "difficulty": 7.5,
+            "coins": 78,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 19,
+              "initial_blocks": 5,
+              "max_goal": 64,
+              "ordered_shots": 6
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 10,
+              "text": "Switch columns at most 10 times without a revive."
+            }
+          },
+          {
+            "level": 67,
+            "type": "normal",
+            "difficulty": 7.6,
+            "coins": 78,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 18,
+              "initial_blocks": 6,
+              "max_goal": 64,
+              "ordered_shots": 6
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 13,
+              "text": "Switch columns at most 13 times without a revive."
+            }
+          },
+          {
+            "level": 68,
+            "type": "normal",
+            "difficulty": 7.7,
+            "coins": 78,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 14,
+              "initial_blocks": 6,
+              "max_goal": 64,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 11,
+              "text": "Switch columns at most 11 times without a revive."
+            }
+          },
+          {
+            "level": 69,
+            "type": "normal",
+            "difficulty": 7.8,
+            "coins": 78,
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 21,
+              "initial_blocks": 6,
+              "max_goal": 64,
+              "ordered_shots": 7
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 14,
+              "text": "Switch columns at most 14 times without a revive."
+            }
+          },
+          {
+            "level": 70,
+            "type": "milestone",
+            "difficulty": 7.9,
+            "coins": 78,
+            "frame": "Gold ink seal and chapter crown",
+            "reward": {
+              "type": "skin",
+              "id": "hero_limited"
+            },
+            "mechanics": [
+              "tap-shot",
+              "equal-merge",
+              "loose-pin",
+              "recipe",
+              "echo",
+              "bank"
+            ],
+            "actual_metrics": {
+              "shots": 14,
+              "initial_blocks": 5,
+              "max_goal": 64,
+              "ordered_shots": 5
+            },
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            }
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

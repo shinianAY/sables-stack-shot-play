@@ -1,0 +1,18 @@
+{
+    "paths": {},
+    "uuids": [
+        "2efXDfCIlOh5t/BVqDrI7Q"
+    ],
+    "scenes": {
+        "db://assets/scenes/Main.fire": "2efXDfCIlOh5t/BVqDrI7Q"
+    },
+    "redirect": [],
+    "deps": [],
+    "packs": {},
+    "name": "main",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

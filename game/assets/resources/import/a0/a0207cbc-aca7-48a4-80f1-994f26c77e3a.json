@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f4/DAXngNJioAvXhuUKMkl"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "btn_continue",
+      "rect": [
+        19,
+        18,
+        591,
+        190
+      ],
+      "offset": [
+        4.5,
+        -8
+      ],
+      "originalSize": [
+        620,
+        210
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

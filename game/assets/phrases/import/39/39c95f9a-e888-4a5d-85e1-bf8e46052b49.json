@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "48m8T1Z5JNmYwal+Guz4vK"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "txt_TAP_A_COLUMN_MERGE_EQUAL_INK",
+      "rect": [
+        0,
+        0,
+        442,
+        128
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        442,
+        128
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

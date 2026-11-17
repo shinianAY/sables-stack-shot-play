@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "3cPDpmCSVE/Z5yiEkfhxXm"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "gift_05",
+      "rect": [
+        18,
+        3,
+        380,
+        373
+      ],
+      "offset": [
+        8,
+        10.5
+      ],
+      "originalSize": [
+        400,
+        400
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

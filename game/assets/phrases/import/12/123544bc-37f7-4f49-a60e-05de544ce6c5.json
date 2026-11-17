@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c8Rckx7CRJXIpQFZSc7Kdn"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "txt_DANGER_PIN",
+      "rect": [
+        2,
+        4,
+        698,
+        216
+      ],
+      "offset": [
+        1,
+        0
+      ],
+      "originalSize": [
+        700,
+        224
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

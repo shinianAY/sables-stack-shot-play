@@ -1,0 +1,4604 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "levels",
+      {
+        "schema": "stx-levels.v2",
+        "seed": 138880088,
+        "levels": [
+          {
+            "id": 1,
+            "type": "main",
+            "goal": 2,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 2,
+            "target": 4,
+            "columns": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "queue": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orders": [
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            },
+            "metrics": {
+              "shots": 4,
+              "initial_blocks": 0,
+              "max_goal": 2,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 2,
+            "type": "main",
+            "goal": 2,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 4,
+            "target": 6,
+            "columns": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "queue": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "orders": [
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            },
+            "metrics": {
+              "shots": 6,
+              "initial_blocks": 0,
+              "max_goal": 2,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 3,
+            "type": "main",
+            "goal": 2,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 8,
+            "columns": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "queue": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            },
+            "metrics": {
+              "shots": 8,
+              "initial_blocks": 0,
+              "max_goal": 2,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 4,
+            "type": "main",
+            "goal": 4,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 1,
+            "target": 12,
+            "columns": [
+              [
+                2
+              ],
+              [
+                2
+              ],
+              [],
+              [],
+              []
+            ],
+            "queue": [
+              1,
+              2,
+              1,
+              4
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 2,
+              "text": "Switch columns at most 2 times without a revive."
+            },
+            "metrics": {
+              "shots": 4,
+              "initial_blocks": 2,
+              "max_goal": 4,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 5,
+            "type": "main",
+            "goal": 4,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 2,
+            "target": 12,
+            "columns": [
+              [],
+              [
+                2
+              ],
+              [],
+              [],
+              [
+                2
+              ]
+            ],
+            "queue": [
+              2,
+              1,
+              1,
+              4
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            },
+            "metrics": {
+              "shots": 4,
+              "initial_blocks": 2,
+              "max_goal": 4,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 6,
+            "type": "bonus",
+            "goal": 8,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 16,
+            "columns": [
+              [],
+              [],
+              [],
+              [],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              4,
+              8
+            ],
+            "orders": [
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            },
+            "metrics": {
+              "shots": 2,
+              "initial_blocks": 1,
+              "max_goal": 8,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 7,
+            "type": "main",
+            "goal": 4,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 0,
+            "target": 12,
+            "columns": [
+              [],
+              [],
+              [
+                2
+              ],
+              [
+                2,
+                1
+              ],
+              []
+            ],
+            "queue": [
+              2,
+              1,
+              4
+            ],
+            "orders": [
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            },
+            "metrics": {
+              "shots": 3,
+              "initial_blocks": 3,
+              "max_goal": 4,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 8,
+            "type": "main",
+            "goal": 4,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 0,
+            "target": 12,
+            "columns": [
+              [],
+              [],
+              [],
+              [
+                2
+              ],
+              [
+                2
+              ]
+            ],
+            "queue": [
+              2,
+              2,
+              4
+            ],
+            "orders": [
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            },
+            "metrics": {
+              "shots": 3,
+              "initial_blocks": 2,
+              "max_goal": 4,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 9,
+            "type": "main",
+            "goal": 4,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 4,
+            "target": 12,
+            "columns": [
+              [
+                2
+              ],
+              [],
+              [
+                2
+              ],
+              [],
+              []
+            ],
+            "queue": [
+              1,
+              1,
+              2,
+              4
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            },
+            "metrics": {
+              "shots": 4,
+              "initial_blocks": 2,
+              "max_goal": 4,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 10,
+            "type": "main",
+            "goal": 4,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 16,
+            "columns": [
+              [],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                2
+              ],
+              []
+            ],
+            "queue": [
+              2,
+              1,
+              2,
+              1,
+              1,
+              4
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 3,
+              "text": "Switch columns at most 3 times without a revive."
+            },
+            "metrics": {
+              "shots": 6,
+              "initial_blocks": 3,
+              "max_goal": 4,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 11,
+            "type": "main",
+            "goal": 4,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 1,
+            "target": 16,
+            "columns": [
+              [],
+              [
+                2
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                2
+              ],
+              []
+            ],
+            "queue": [
+              1,
+              2,
+              1,
+              1,
+              4
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 2,
+              "text": "Switch columns at most 2 times without a revive."
+            },
+            "metrics": {
+              "shots": 5,
+              "initial_blocks": 4,
+              "max_goal": 4,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 12,
+            "type": "main",
+            "goal": 8,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 4,
+            "target": 32,
+            "columns": [
+              [],
+              [
+                4
+              ],
+              [
+                4
+              ],
+              [
+                4
+              ],
+              []
+            ],
+            "queue": [
+              4,
+              4,
+              2,
+              1,
+              1,
+              8
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 2,
+              "text": "Switch columns at most 2 times without a revive."
+            },
+            "metrics": {
+              "shots": 6,
+              "initial_blocks": 3,
+              "max_goal": 8,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 13,
+            "type": "bonus",
+            "goal": 8,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 4,
+            "target": 16,
+            "columns": [
+              [
+                4,
+                2
+              ],
+              [],
+              [],
+              [],
+              []
+            ],
+            "queue": [
+              2,
+              8
+            ],
+            "orders": [
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            },
+            "metrics": {
+              "shots": 2,
+              "initial_blocks": 2,
+              "max_goal": 8,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 14,
+            "type": "main",
+            "goal": 8,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 2,
+            "target": 32,
+            "columns": [
+              [],
+              [
+                4
+              ],
+              [
+                4
+              ],
+              [],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              1,
+              1,
+              4,
+              2,
+              2,
+              2,
+              8
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 3,
+              "text": "Switch columns at most 3 times without a revive."
+            },
+            "metrics": {
+              "shots": 7,
+              "initial_blocks": 3,
+              "max_goal": 8,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 15,
+            "type": "main",
+            "goal": 8,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 4,
+            "target": 32,
+            "columns": [
+              [
+                4
+              ],
+              [],
+              [
+                2
+              ],
+              [],
+              [
+                2
+              ]
+            ],
+            "queue": [
+              2,
+              4,
+              2,
+              1,
+              2,
+              1,
+              4,
+              8
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 4,
+              "text": "Switch columns at most 4 times without a revive."
+            },
+            "metrics": {
+              "shots": 8,
+              "initial_blocks": 3,
+              "max_goal": 8,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 16,
+            "type": "main",
+            "goal": 8,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 0,
+            "target": 40,
+            "columns": [
+              [
+                4
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                4
+              ],
+              [],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              4,
+              4,
+              2,
+              1,
+              2,
+              4,
+              8
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            },
+            "metrics": {
+              "shots": 7,
+              "initial_blocks": 5,
+              "max_goal": 8,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 17,
+            "type": "main",
+            "goal": 8,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 4,
+            "target": 40,
+            "columns": [
+              [
+                4,
+                2
+              ],
+              [
+                2
+              ],
+              [
+                4,
+                2,
+                1
+              ],
+              [],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              2,
+              4,
+              2,
+              4,
+              1,
+              8
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 3,
+              "text": "Switch columns at most 3 times without a revive."
+            },
+            "metrics": {
+              "shots": 6,
+              "initial_blocks": 7,
+              "max_goal": 8,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 18,
+            "type": "special",
+            "goal": 8,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": true,
+            "gold": 2,
+            "target": 48,
+            "columns": [
+              [
+                4
+              ],
+              [
+                2
+              ],
+              [
+                4
+              ],
+              [
+                4
+              ],
+              []
+            ],
+            "queue": [
+              4,
+              4,
+              2,
+              4,
+              2,
+              2,
+              8
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 3,
+              "text": "Switch columns at most 3 times without a revive."
+            },
+            "metrics": {
+              "shots": 7,
+              "initial_blocks": 4,
+              "max_goal": 8,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 19,
+            "type": "main",
+            "goal": 8,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 40,
+            "columns": [
+              [
+                4
+              ],
+              [
+                4
+              ],
+              [
+                4
+              ],
+              [],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              4,
+              4,
+              4,
+              1,
+              1,
+              2,
+              8
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 3,
+              "text": "Switch columns at most 3 times without a revive."
+            },
+            "metrics": {
+              "shots": 7,
+              "initial_blocks": 4,
+              "max_goal": 8,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 20,
+            "type": "main",
+            "goal": 8,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 40,
+            "columns": [
+              [
+                4
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                4
+              ],
+              [],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              2,
+              2,
+              1,
+              2,
+              1,
+              1,
+              4,
+              1,
+              8
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            },
+            "metrics": {
+              "shots": 9,
+              "initial_blocks": 5,
+              "max_goal": 8,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 21,
+            "type": "main",
+            "goal": 8,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 4,
+            "target": 40,
+            "columns": [
+              [
+                2
+              ],
+              [
+                1
+              ],
+              [],
+              [
+                4
+              ],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              4,
+              2,
+              2,
+              2,
+              1,
+              1,
+              4,
+              1,
+              4,
+              8
+            ],
+            "orders": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 4,
+              "text": "Switch columns at most 4 times without a revive."
+            },
+            "metrics": {
+              "shots": 10,
+              "initial_blocks": 4,
+              "max_goal": 8,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 22,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 1,
+            "target": 96,
+            "columns": [
+              [
+                8
+              ],
+              [
+                2
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              8,
+              8,
+              8,
+              2,
+              2,
+              2,
+              4,
+              8,
+              16
+            ],
+            "orders": [
+              3,
+              null,
+              null,
+              1,
+              null,
+              null,
+              1,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            },
+            "metrics": {
+              "shots": 9,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 3
+            }
+          },
+          {
+            "id": 23,
+            "type": "bonus",
+            "goal": 16,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 1,
+            "target": 32,
+            "columns": [
+              [],
+              [],
+              [
+                8,
+                4,
+                2
+              ],
+              [],
+              []
+            ],
+            "queue": [
+              2,
+              16
+            ],
+            "orders": [
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            },
+            "metrics": {
+              "shots": 2,
+              "initial_blocks": 3,
+              "max_goal": 16,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 24,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 2,
+            "target": 96,
+            "columns": [
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              8,
+              2,
+              4,
+              2,
+              8,
+              4,
+              8,
+              2,
+              2,
+              4,
+              16
+            ],
+            "orders": [
+              0,
+              null,
+              null,
+              2,
+              null,
+              null,
+              3,
+              null,
+              null,
+              4,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            },
+            "metrics": {
+              "shots": 11,
+              "initial_blocks": 5,
+              "max_goal": 16,
+              "ordered_shots": 4
+            }
+          },
+          {
+            "id": 25,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 0,
+            "target": 96,
+            "columns": [
+              [
+                4
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                8,
+                4,
+                2
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              4,
+              2,
+              1,
+              4,
+              4,
+              4,
+              8,
+              4,
+              4,
+              2,
+              2,
+              16
+            ],
+            "orders": [
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              1,
+              null,
+              null,
+              0,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            },
+            "metrics": {
+              "shots": 12,
+              "initial_blocks": 9,
+              "max_goal": 16,
+              "ordered_shots": 4
+            }
+          },
+          {
+            "id": 26,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 96,
+            "columns": [
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                8,
+                1
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              8,
+              1,
+              8,
+              4,
+              1,
+              2,
+              4,
+              2,
+              2,
+              1,
+              2,
+              2,
+              2,
+              16
+            ],
+            "orders": [
+              4,
+              null,
+              null,
+              2,
+              null,
+              null,
+              0,
+              null,
+              null,
+              2,
+              null,
+              null,
+              2,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            },
+            "metrics": {
+              "shots": 14,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 27,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 96,
+            "columns": [
+              [
+                4
+              ],
+              [
+                4
+              ],
+              [
+                8
+              ],
+              [
+                4,
+                2,
+                1
+              ],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              1,
+              4,
+              4,
+              4,
+              2,
+              8,
+              2,
+              2,
+              8,
+              2,
+              4,
+              4,
+              8,
+              16
+            ],
+            "orders": [
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              1,
+              null,
+              null,
+              0,
+              null,
+              null,
+              0,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            },
+            "metrics": {
+              "shots": 14,
+              "initial_blocks": 7,
+              "max_goal": 16,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 28,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 96,
+            "columns": [
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                4
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              8,
+              4,
+              4,
+              8,
+              4,
+              4,
+              8,
+              16
+            ],
+            "orders": [
+              1,
+              null,
+              null,
+              4,
+              null,
+              null,
+              2,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            },
+            "metrics": {
+              "shots": 8,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 3
+            }
+          },
+          {
+            "id": 29,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 2,
+            "target": 96,
+            "columns": [
+              [
+                8
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                4
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              8,
+              4,
+              8,
+              4,
+              8,
+              8,
+              16
+            ],
+            "orders": [
+              4,
+              null,
+              null,
+              2,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 4,
+              "text": "Switch columns at most 4 times without a revive."
+            },
+            "metrics": {
+              "shots": 7,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 2
+            }
+          },
+          {
+            "id": 30,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 0,
+            "target": 96,
+            "columns": [
+              [
+                4
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                2
+              ],
+              [
+                8,
+                4
+              ]
+            ],
+            "queue": [
+              2,
+              4,
+              4,
+              8,
+              8,
+              8,
+              4,
+              8,
+              16
+            ],
+            "orders": [
+              3,
+              null,
+              null,
+              1,
+              null,
+              null,
+              3,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            },
+            "metrics": {
+              "shots": 9,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 3
+            }
+          },
+          {
+            "id": 31,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 4,
+            "target": 96,
+            "columns": [
+              [
+                8
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                8
+              ],
+              [
+                4
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              8,
+              8,
+              4,
+              2,
+              4,
+              1,
+              8,
+              1,
+              2,
+              2,
+              16
+            ],
+            "orders": [
+              2,
+              null,
+              null,
+              4,
+              null,
+              null,
+              3,
+              null,
+              null,
+              4,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            },
+            "metrics": {
+              "shots": 11,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 4
+            }
+          },
+          {
+            "id": 32,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 1,
+            "target": 96,
+            "columns": [
+              [
+                4,
+                2
+              ],
+              [
+                8,
+                1
+              ],
+              [
+                2
+              ],
+              [
+                8,
+                1
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              2,
+              1,
+              1,
+              2,
+              2,
+              4,
+              8,
+              8,
+              8,
+              2,
+              1,
+              2,
+              1,
+              4,
+              16
+            ],
+            "orders": [
+              2,
+              null,
+              null,
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              3,
+              null,
+              null,
+              3,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 12,
+              "text": "Switch columns at most 12 times without a revive."
+            },
+            "metrics": {
+              "shots": 15,
+              "initial_blocks": 8,
+              "max_goal": 16,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 33,
+            "type": "sealed",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 96,
+            "columns": [
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                4
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              4,
+              2,
+              8,
+              4,
+              1,
+              4,
+              1,
+              1,
+              8,
+              1,
+              2,
+              4,
+              2,
+              2,
+              16
+            ],
+            "orders": [
+              1,
+              null,
+              null,
+              2,
+              null,
+              null,
+              3,
+              null,
+              null,
+              1,
+              null,
+              null,
+              3,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            },
+            "metrics": {
+              "shots": 15,
+              "initial_blocks": 5,
+              "max_goal": 16,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 34,
+            "type": "bonus",
+            "goal": 32,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 1,
+            "target": 64,
+            "columns": [
+              [],
+              [],
+              [
+                16,
+                8,
+                4,
+                2
+              ],
+              [],
+              []
+            ],
+            "queue": [
+              2,
+              32
+            ],
+            "orders": [
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            },
+            "metrics": {
+              "shots": 2,
+              "initial_blocks": 4,
+              "max_goal": 32,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 35,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 0,
+            "target": 96,
+            "columns": [
+              [
+                4
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                2
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "queue": [
+              2,
+              1,
+              2,
+              2,
+              1,
+              8,
+              1,
+              4,
+              1,
+              2,
+              2,
+              4,
+              4,
+              2,
+              4,
+              4,
+              1,
+              1,
+              2,
+              4,
+              16
+            ],
+            "orders": [
+              4,
+              null,
+              null,
+              1,
+              null,
+              null,
+              1,
+              null,
+              null,
+              3,
+              null,
+              null,
+              0,
+              null,
+              null,
+              3,
+              null,
+              null,
+              0,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 13,
+              "text": "Switch columns at most 13 times without a revive."
+            },
+            "metrics": {
+              "shots": 21,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 7
+            }
+          },
+          {
+            "id": 36,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 4,
+            "target": 237,
+            "columns": [
+              [
+                8
+              ],
+              [
+                16
+              ],
+              [
+                8
+              ],
+              [
+                16,
+                2
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              16,
+              4,
+              4,
+              16,
+              16,
+              8,
+              8,
+              4,
+              2,
+              2,
+              2,
+              2,
+              2,
+              4,
+              4,
+              32
+            ],
+            "orders": [
+              4,
+              null,
+              null,
+              2,
+              null,
+              null,
+              0,
+              null,
+              null,
+              0,
+              null,
+              null,
+              3,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 4,
+              "text": "Switch columns at most 4 times without a revive."
+            },
+            "metrics": {
+              "shots": 16,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 37,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 2,
+            "target": 237,
+            "columns": [
+              [
+                8
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                4
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              16,
+              4,
+              8,
+              4,
+              4,
+              4,
+              4,
+              8,
+              4,
+              2,
+              16,
+              2,
+              8,
+              8,
+              4,
+              4,
+              8,
+              32
+            ],
+            "orders": [
+              1,
+              null,
+              null,
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              4,
+              null,
+              null,
+              4,
+              null,
+              null,
+              0,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 10,
+              "text": "Switch columns at most 10 times without a revive."
+            },
+            "metrics": {
+              "shots": 18,
+              "initial_blocks": 5,
+              "max_goal": 32,
+              "ordered_shots": 6
+            }
+          },
+          {
+            "id": 38,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 237,
+            "columns": [
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                16
+              ],
+              [
+                16,
+                8
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              4,
+              8,
+              16,
+              4,
+              8,
+              8,
+              8,
+              4,
+              2,
+              4,
+              2,
+              4,
+              16,
+              32
+            ],
+            "orders": [
+              3,
+              null,
+              null,
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              4,
+              null,
+              null,
+              0,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            },
+            "metrics": {
+              "shots": 14,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 39,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 237,
+            "columns": [
+              [
+                16,
+                4
+              ],
+              [
+                16
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              4,
+              16,
+              8,
+              8,
+              8,
+              8,
+              4,
+              16,
+              8,
+              4,
+              4,
+              16,
+              32
+            ],
+            "orders": [
+              0,
+              null,
+              null,
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              4,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            },
+            "metrics": {
+              "shots": 13,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 4
+            }
+          },
+          {
+            "id": 40,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 1,
+            "target": 237,
+            "columns": [
+              [
+                8
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              16,
+              16,
+              16,
+              8,
+              8,
+              16,
+              8,
+              32
+            ],
+            "orders": [
+              2,
+              null,
+              null,
+              0,
+              null,
+              null,
+              1,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            },
+            "metrics": {
+              "shots": 8,
+              "initial_blocks": 5,
+              "max_goal": 32,
+              "ordered_shots": 3
+            }
+          },
+          {
+            "id": 41,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 2,
+            "target": 237,
+            "columns": [
+              [
+                16
+              ],
+              [
+                16,
+                2
+              ],
+              [
+                16
+              ],
+              [
+                8,
+                2
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              2,
+              4,
+              2,
+              2,
+              1,
+              2,
+              4,
+              2,
+              1,
+              4,
+              8,
+              8,
+              8,
+              4,
+              4,
+              4,
+              16,
+              4,
+              2,
+              2,
+              32
+            ],
+            "orders": [
+              1,
+              null,
+              null,
+              1,
+              null,
+              null,
+              3,
+              null,
+              null,
+              2,
+              null,
+              null,
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              2,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 15,
+              "text": "Switch columns at most 15 times without a revive."
+            },
+            "metrics": {
+              "shots": 21,
+              "initial_blocks": 7,
+              "max_goal": 32,
+              "ordered_shots": 7
+            }
+          },
+          {
+            "id": 42,
+            "type": "bonus",
+            "goal": 64,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 2,
+            "target": 128,
+            "columns": [
+              [],
+              [],
+              [],
+              [
+                32,
+                16,
+                8,
+                4,
+                2
+              ],
+              []
+            ],
+            "queue": [
+              2,
+              64
+            ],
+            "orders": [
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 0,
+              "text": "Switch columns at most 0 times without a revive."
+            },
+            "metrics": {
+              "shots": 2,
+              "initial_blocks": 5,
+              "max_goal": 64,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 43,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 1,
+            "target": 237,
+            "columns": [
+              [
+                16
+              ],
+              [
+                16,
+                8
+              ],
+              [
+                2
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              8,
+              16,
+              16,
+              2,
+              16,
+              4,
+              8,
+              8,
+              8,
+              32
+            ],
+            "orders": [
+              1,
+              null,
+              null,
+              2,
+              null,
+              null,
+              2,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            },
+            "metrics": {
+              "shots": 10,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 3
+            }
+          },
+          {
+            "id": 44,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 1,
+            "target": 237,
+            "columns": [
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                4
+              ],
+              [
+                16
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              8,
+              1,
+              1,
+              2,
+              16,
+              8,
+              16,
+              8,
+              8,
+              8,
+              8,
+              16,
+              32
+            ],
+            "orders": [
+              4,
+              null,
+              null,
+              2,
+              null,
+              null,
+              3,
+              null,
+              null,
+              0,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            },
+            "metrics": {
+              "shots": 13,
+              "initial_blocks": 5,
+              "max_goal": 32,
+              "ordered_shots": 4
+            }
+          },
+          {
+            "id": 45,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 1,
+            "target": 237,
+            "columns": [
+              [
+                4
+              ],
+              [
+                16,
+                8
+              ],
+              [
+                16,
+                8
+              ],
+              [
+                16,
+                8,
+                4,
+                2
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              8,
+              2,
+              2,
+              8,
+              2,
+              8,
+              16,
+              16,
+              32
+            ],
+            "orders": [
+              1,
+              null,
+              null,
+              2,
+              null,
+              null,
+              4,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            },
+            "metrics": {
+              "shots": 9,
+              "initial_blocks": 10,
+              "max_goal": 32,
+              "ordered_shots": 3
+            }
+          },
+          {
+            "id": 46,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 0,
+            "target": 237,
+            "columns": [
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                16,
+                8
+              ]
+            ],
+            "queue": [
+              16,
+              4,
+              4,
+              8,
+              16,
+              8,
+              8,
+              8,
+              32
+            ],
+            "orders": [
+              2,
+              null,
+              null,
+              0,
+              null,
+              null,
+              3,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            },
+            "metrics": {
+              "shots": 9,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 3
+            }
+          },
+          {
+            "id": 47,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 3,
+            "target": 237,
+            "columns": [
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                16,
+                8,
+                4
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              16,
+              4,
+              16,
+              16,
+              4,
+              2,
+              2,
+              4,
+              4,
+              32
+            ],
+            "orders": [
+              4,
+              null,
+              null,
+              2,
+              null,
+              null,
+              1,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 4,
+              "text": "Switch columns at most 4 times without a revive."
+            },
+            "metrics": {
+              "shots": 10,
+              "initial_blocks": 7,
+              "max_goal": 32,
+              "ordered_shots": 3
+            }
+          },
+          {
+            "id": 48,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 1,
+            "target": 157,
+            "columns": [
+              [
+                8
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                8
+              ],
+              [
+                4
+              ],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              8,
+              4,
+              4,
+              8,
+              4,
+              4,
+              4,
+              4,
+              2,
+              2,
+              1,
+              1,
+              16
+            ],
+            "orders": [
+              2,
+              null,
+              null,
+              4,
+              null,
+              null,
+              3,
+              null,
+              null,
+              0,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            },
+            "metrics": {
+              "shots": 13,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 4
+            }
+          },
+          {
+            "id": 49,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 0,
+            "target": 177,
+            "columns": [
+              [
+                4
+              ],
+              [
+                8
+              ],
+              [
+                4
+              ],
+              [
+                2
+              ],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              4,
+              2,
+              4,
+              2,
+              4,
+              2,
+              4,
+              4,
+              2,
+              2,
+              2,
+              2,
+              2,
+              4,
+              8,
+              2,
+              4,
+              4,
+              1,
+              1,
+              16
+            ],
+            "orders": [
+              2,
+              null,
+              null,
+              3,
+              null,
+              null,
+              2,
+              null,
+              null,
+              4,
+              null,
+              null,
+              1,
+              null,
+              null,
+              1,
+              null,
+              null,
+              4,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 14,
+              "text": "Switch columns at most 14 times without a revive."
+            },
+            "metrics": {
+              "shots": 21,
+              "initial_blocks": 5,
+              "max_goal": 16,
+              "ordered_shots": 7
+            }
+          },
+          {
+            "id": 50,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 1,
+            "target": 157,
+            "columns": [
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                8,
+                2
+              ],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              2,
+              4,
+              2,
+              1,
+              8,
+              8,
+              1,
+              4,
+              4,
+              4,
+              4,
+              1,
+              1,
+              16
+            ],
+            "orders": [
+              3,
+              null,
+              null,
+              1,
+              null,
+              null,
+              1,
+              null,
+              null,
+              4,
+              null,
+              null,
+              2,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            },
+            "metrics": {
+              "shots": 14,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 51,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 1,
+            "target": 153,
+            "columns": [
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                2
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              1,
+              8,
+              4,
+              2,
+              1,
+              8,
+              1,
+              1,
+              2,
+              4,
+              2,
+              8,
+              1,
+              1,
+              16
+            ],
+            "orders": [
+              2,
+              null,
+              null,
+              4,
+              null,
+              null,
+              4,
+              null,
+              null,
+              3,
+              null,
+              null,
+              4,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 9,
+              "text": "Switch columns at most 9 times without a revive."
+            },
+            "metrics": {
+              "shots": 15,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 52,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 2,
+            "target": 157,
+            "columns": [
+              [
+                8,
+                4
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                8
+              ],
+              [
+                4
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              4,
+              8,
+              4,
+              2,
+              4,
+              4,
+              2,
+              2,
+              8,
+              4,
+              1,
+              1,
+              16
+            ],
+            "orders": [
+              2,
+              null,
+              null,
+              1,
+              null,
+              null,
+              2,
+              null,
+              null,
+              1,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            },
+            "metrics": {
+              "shots": 13,
+              "initial_blocks": 7,
+              "max_goal": 16,
+              "ordered_shots": 4
+            }
+          },
+          {
+            "id": 53,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 2,
+            "target": 149,
+            "columns": [
+              [
+                8
+              ],
+              [
+                4
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ]
+            ],
+            "queue": [
+              8,
+              8,
+              4,
+              8,
+              4,
+              8,
+              1,
+              1,
+              16
+            ],
+            "orders": [
+              4,
+              null,
+              null,
+              1,
+              null,
+              null,
+              2,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 5,
+              "text": "Switch columns at most 5 times without a revive."
+            },
+            "metrics": {
+              "shots": 9,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 3
+            }
+          },
+          {
+            "id": 54,
+            "type": "bonus",
+            "goal": 128,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 0,
+            "target": 384,
+            "columns": [
+              [],
+              [
+                64,
+                32,
+                16,
+                8,
+                4
+              ],
+              [
+                64
+              ],
+              [],
+              []
+            ],
+            "queue": [
+              4,
+              64,
+              128
+            ],
+            "orders": [
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            },
+            "metrics": {
+              "shots": 3,
+              "initial_blocks": 6,
+              "max_goal": 128,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 55,
+            "type": "main",
+            "goal": 16,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 4,
+            "target": 173,
+            "columns": [
+              [
+                8
+              ],
+              [
+                4
+              ],
+              [
+                4
+              ],
+              [
+                2
+              ],
+              [
+                8,
+                2
+              ]
+            ],
+            "queue": [
+              2,
+              8,
+              2,
+              2,
+              1,
+              2,
+              4,
+              2,
+              1,
+              4,
+              8,
+              2,
+              2,
+              2,
+              2,
+              4,
+              4,
+              1,
+              1,
+              16
+            ],
+            "orders": [
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              4,
+              null,
+              null,
+              3,
+              null,
+              null,
+              2,
+              null,
+              null,
+              2,
+              null,
+              null,
+              2,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 14,
+              "text": "Switch columns at most 14 times without a revive."
+            },
+            "metrics": {
+              "shots": 20,
+              "initial_blocks": 6,
+              "max_goal": 16,
+              "ordered_shots": 7
+            }
+          },
+          {
+            "id": 56,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 2,
+            "target": 297,
+            "columns": [
+              [
+                2
+              ],
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              2,
+              8,
+              16,
+              16,
+              16,
+              8,
+              8,
+              8,
+              4,
+              8,
+              16,
+              1,
+              1,
+              32
+            ],
+            "orders": [
+              0,
+              null,
+              null,
+              1,
+              null,
+              null,
+              2,
+              null,
+              null,
+              0,
+              null,
+              null,
+              1,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            },
+            "metrics": {
+              "shots": 14,
+              "initial_blocks": 5,
+              "max_goal": 32,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 57,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 0,
+            "target": 293,
+            "columns": [
+              [
+                4
+              ],
+              [
+                8
+              ],
+              [
+                16
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              8,
+              4,
+              4,
+              4,
+              8,
+              8,
+              4,
+              8,
+              8,
+              8,
+              8,
+              16,
+              8,
+              8,
+              1,
+              1,
+              32
+            ],
+            "orders": [
+              4,
+              null,
+              null,
+              1,
+              null,
+              null,
+              1,
+              null,
+              null,
+              0,
+              null,
+              null,
+              0,
+              null,
+              null,
+              4,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 12,
+              "text": "Switch columns at most 12 times without a revive."
+            },
+            "metrics": {
+              "shots": 17,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 6
+            }
+          },
+          {
+            "id": 58,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 2,
+            "target": 257,
+            "columns": [
+              [
+                16,
+                8
+              ],
+              [
+                16
+              ],
+              [
+                8,
+                2,
+                1
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              8,
+              8,
+              8,
+              1,
+              2,
+              16,
+              2,
+              16,
+              16,
+              1,
+              1,
+              32
+            ],
+            "orders": [
+              0,
+              null,
+              null,
+              2,
+              null,
+              null,
+              2,
+              null,
+              null,
+              4,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            },
+            "metrics": {
+              "shots": 12,
+              "initial_blocks": 8,
+              "max_goal": 32,
+              "ordered_shots": 4
+            }
+          },
+          {
+            "id": 59,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 3,
+            "target": 237,
+            "columns": [
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                16,
+                8
+              ],
+              [
+                16,
+                8
+              ]
+            ],
+            "queue": [
+              16,
+              8,
+              8,
+              16,
+              4,
+              4,
+              8,
+              1,
+              1,
+              32
+            ],
+            "orders": [
+              0,
+              null,
+              null,
+              2,
+              null,
+              null,
+              4,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 6,
+              "text": "Switch columns at most 6 times without a revive."
+            },
+            "metrics": {
+              "shots": 10,
+              "initial_blocks": 7,
+              "max_goal": 32,
+              "ordered_shots": 3
+            }
+          },
+          {
+            "id": 60,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 0,
+            "target": 289,
+            "columns": [
+              [
+                8
+              ],
+              [
+                8
+              ],
+              [
+                8,
+                2,
+                1
+              ],
+              [
+                16,
+                8,
+                4
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              4,
+              8,
+              16,
+              4,
+              16,
+              4,
+              8,
+              8,
+              1,
+              4,
+              8,
+              8,
+              1,
+              1,
+              32
+            ],
+            "orders": [
+              0,
+              null,
+              null,
+              3,
+              null,
+              null,
+              0,
+              null,
+              null,
+              2,
+              null,
+              null,
+              3,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            },
+            "metrics": {
+              "shots": 15,
+              "initial_blocks": 9,
+              "max_goal": 32,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 61,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 4,
+            "target": 277,
+            "columns": [
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                8
+              ],
+              [
+                8,
+                4
+              ]
+            ],
+            "queue": [
+              8,
+              16,
+              16,
+              4,
+              16,
+              4,
+              4,
+              8,
+              8,
+              8,
+              1,
+              1,
+              32
+            ],
+            "orders": [
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              0,
+              null,
+              null,
+              4,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            },
+            "metrics": {
+              "shots": 13,
+              "initial_blocks": 6,
+              "max_goal": 32,
+              "ordered_shots": 4
+            }
+          },
+          {
+            "id": 62,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 0,
+            "target": 257,
+            "columns": [
+              [
+                8
+              ],
+              [
+                16
+              ],
+              [
+                16,
+                8
+              ],
+              [
+                16,
+                8,
+                4
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              8,
+              8,
+              8,
+              8,
+              16,
+              2,
+              1,
+              8,
+              4,
+              1,
+              4,
+              1,
+              1,
+              32
+            ],
+            "orders": [
+              0,
+              null,
+              null,
+              0,
+              null,
+              null,
+              0,
+              null,
+              null,
+              0,
+              null,
+              null,
+              0,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 8,
+              "text": "Switch columns at most 8 times without a revive."
+            },
+            "metrics": {
+              "shots": 14,
+              "initial_blocks": 8,
+              "max_goal": 32,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 63,
+            "type": "main",
+            "goal": 32,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 1,
+            "target": 289,
+            "columns": [
+              [
+                16,
+                8,
+                4
+              ],
+              [
+                2
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                4
+              ]
+            ],
+            "queue": [
+              4,
+              2,
+              16,
+              4,
+              4,
+              8,
+              4,
+              4,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8,
+              1,
+              1,
+              32
+            ],
+            "orders": [
+              0,
+              null,
+              null,
+              1,
+              null,
+              null,
+              1,
+              null,
+              null,
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              3,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 10,
+              "text": "Switch columns at most 10 times without a revive."
+            },
+            "metrics": {
+              "shots": 17,
+              "initial_blocks": 7,
+              "max_goal": 32,
+              "ordered_shots": 6
+            }
+          },
+          {
+            "id": 64,
+            "type": "bonus",
+            "goal": 256,
+            "merge": true,
+            "pin": false,
+            "recipe": null,
+            "echo": false,
+            "bank_rule": false,
+            "ink_double": false,
+            "gold": 4,
+            "target": 768,
+            "columns": [
+              [
+                128,
+                64,
+                32,
+                16,
+                8
+              ],
+              [
+                128,
+                64
+              ],
+              [],
+              [],
+              []
+            ],
+            "queue": [
+              8,
+              64,
+              256
+            ],
+            "orders": [
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 1,
+              "text": "Switch columns at most 1 times without a revive."
+            },
+            "metrics": {
+              "shots": 3,
+              "initial_blocks": 7,
+              "max_goal": 256,
+              "ordered_shots": 0
+            }
+          },
+          {
+            "id": 65,
+            "type": "main",
+            "goal": 64,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 0,
+            "target": 553,
+            "columns": [
+              [
+                32,
+                16
+              ],
+              [
+                32,
+                16,
+                4
+              ],
+              [
+                8
+              ],
+              [
+                16,
+                8
+              ],
+              [
+                32,
+                8
+              ]
+            ],
+            "queue": [
+              16,
+              4,
+              2,
+              8,
+              8,
+              2,
+              4,
+              8,
+              4,
+              16,
+              16,
+              8,
+              4,
+              16,
+              8,
+              8,
+              16,
+              1,
+              1,
+              64
+            ],
+            "orders": [
+              0,
+              null,
+              null,
+              1,
+              null,
+              null,
+              2,
+              null,
+              null,
+              3,
+              null,
+              null,
+              2,
+              null,
+              null,
+              2,
+              null,
+              null,
+              4,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 11,
+              "text": "Switch columns at most 11 times without a revive."
+            },
+            "metrics": {
+              "shots": 20,
+              "initial_blocks": 10,
+              "max_goal": 64,
+              "ordered_shots": 7
+            }
+          },
+          {
+            "id": 66,
+            "type": "main",
+            "goal": 64,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 4,
+            "target": 525,
+            "columns": [
+              [
+                32
+              ],
+              [
+                32
+              ],
+              [
+                16
+              ],
+              [
+                32
+              ],
+              [
+                16
+              ]
+            ],
+            "queue": [
+              16,
+              32,
+              32,
+              32,
+              16,
+              2,
+              2,
+              16,
+              4,
+              4,
+              8,
+              2,
+              4,
+              2,
+              4,
+              16,
+              1,
+              1,
+              64
+            ],
+            "orders": [
+              2,
+              null,
+              null,
+              2,
+              null,
+              null,
+              0,
+              null,
+              null,
+              0,
+              null,
+              null,
+              0,
+              null,
+              null,
+              4,
+              null,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 10,
+              "text": "Switch columns at most 10 times without a revive."
+            },
+            "metrics": {
+              "shots": 19,
+              "initial_blocks": 5,
+              "max_goal": 64,
+              "ordered_shots": 6
+            }
+          },
+          {
+            "id": 67,
+            "type": "main",
+            "goal": 64,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 2,
+            "target": 597,
+            "columns": [
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                16
+              ],
+              [
+                32
+              ],
+              [
+                16,
+                8
+              ]
+            ],
+            "queue": [
+              32,
+              8,
+              4,
+              8,
+              4,
+              16,
+              8,
+              8,
+              16,
+              8,
+              8,
+              16,
+              16,
+              32,
+              32,
+              1,
+              1,
+              64
+            ],
+            "orders": [
+              3,
+              null,
+              null,
+              0,
+              null,
+              null,
+              0,
+              null,
+              null,
+              0,
+              null,
+              null,
+              0,
+              null,
+              null,
+              1,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 13,
+              "text": "Switch columns at most 13 times without a revive."
+            },
+            "metrics": {
+              "shots": 18,
+              "initial_blocks": 6,
+              "max_goal": 64,
+              "ordered_shots": 6
+            }
+          },
+          {
+            "id": 68,
+            "type": "main",
+            "goal": 64,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 2,
+            "target": 469,
+            "columns": [
+              [
+                32
+              ],
+              [
+                32
+              ],
+              [
+                32
+              ],
+              [
+                32,
+                8
+              ],
+              [
+                32
+              ]
+            ],
+            "queue": [
+              32,
+              16,
+              8,
+              16,
+              4,
+              32,
+              4,
+              8,
+              8,
+              8,
+              16,
+              1,
+              1,
+              64
+            ],
+            "orders": [
+              0,
+              null,
+              null,
+              4,
+              null,
+              null,
+              1,
+              null,
+              null,
+              3,
+              null,
+              null,
+              3,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 11,
+              "text": "Switch columns at most 11 times without a revive."
+            },
+            "metrics": {
+              "shots": 14,
+              "initial_blocks": 6,
+              "max_goal": 64,
+              "ordered_shots": 5
+            }
+          },
+          {
+            "id": 69,
+            "type": "main",
+            "goal": 64,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 4,
+            "target": 589,
+            "columns": [
+              [
+                32
+              ],
+              [
+                8
+              ],
+              [
+                32
+              ],
+              [
+                8
+              ],
+              [
+                16,
+                8
+              ]
+            ],
+            "queue": [
+              8,
+              8,
+              8,
+              8,
+              8,
+              16,
+              16,
+              8,
+              16,
+              16,
+              4,
+              4,
+              32,
+              8,
+              8,
+              16,
+              16,
+              16,
+              1,
+              1,
+              64
+            ],
+            "orders": [
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              2,
+              null,
+              null,
+              0,
+              null,
+              null,
+              3,
+              null,
+              null,
+              4,
+              null,
+              null,
+              4,
+              null,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 14,
+              "text": "Switch columns at most 14 times without a revive."
+            },
+            "metrics": {
+              "shots": 21,
+              "initial_blocks": 6,
+              "max_goal": 64,
+              "ordered_shots": 7
+            }
+          },
+          {
+            "id": 70,
+            "type": "main",
+            "goal": 64,
+            "merge": true,
+            "pin": true,
+            "recipe": null,
+            "echo": true,
+            "bank_rule": true,
+            "ink_double": false,
+            "gold": 3,
+            "target": 517,
+            "columns": [
+              [
+                16
+              ],
+              [
+                32
+              ],
+              [
+                32
+              ],
+              [
+                8
+              ],
+              [
+                32
+              ]
+            ],
+            "queue": [
+              32,
+              16,
+              8,
+              32,
+              32,
+              4,
+              4,
+              32,
+              8,
+              16,
+              16,
+              1,
+              1,
+              64
+            ],
+            "orders": [
+              1,
+              null,
+              null,
+              2,
+              null,
+              null,
+              3,
+              null,
+              null,
+              3,
+              null,
+              null,
+              3,
+              null
+            ],
+            "perfect": {
+              "kind": "column_switches",
+              "maxSwitches": 7,
+              "text": "Switch columns at most 7 times without a revive."
+            },
+            "metrics": {
+              "shots": 14,
+              "initial_blocks": 5,
+              "max_goal": 64,
+              "ordered_shots": 5
+            }
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

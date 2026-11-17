@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "09Q9w3ooxE454JNMHceq4M"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "btn_play",
+      "rect": [
+        0,
+        0,
+        620,
+        259
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        620,
+        259
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
